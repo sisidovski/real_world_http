@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	src := "握力王"
+	src := "アンドリュー.コム"
 	ascii, err := idna.ToASCII(src)
 	if err != nil {
 		panic(err)
